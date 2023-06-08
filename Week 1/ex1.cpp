@@ -31,19 +31,19 @@ int Max(int a[], int n)    // Find element max
 	}
 	return max ;
 }
-int Swap(int &a, int &b)
+int Swap(int &a, int &b)        //2-integer permutations
 {
 	int temp = a;
 	a= b;
     b = temp;
 }
-void bubbleArrays(int a[], int n)
+void bubbleArrays(int a[], int n)       //Bubble Sort Arrays
 {
 	for(int i = 0 ; i < n - 1 ; i++){
 		for(int j = 0 ; j < n - i - 1; j++)
 		{
 			if(a[j] > a[j+1])
-			Swap(a[j],a[j+1]);
+			Swap(a[j],a[j+1]);      //Reuse the swap function
 		}
 	}
 }
@@ -91,10 +91,10 @@ int main(){
 	 int result = search_integer(a,n,search);
 	 if(result == 1)
 	 {
-	 	cout <<"Integers found in the list !!!"<<endl;
+	 	cout <<"Integers found in the Arrays !!!"<<endl;
 	 }
 	 else {
-	 	cout <<"Integers not found in the list !!!"<<endl;
+	 	cout <<"Integers not found in the Arrays !!!"<<endl;
 	 }
 
 	//2.Max
