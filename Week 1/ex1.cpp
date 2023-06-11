@@ -91,7 +91,7 @@ int main(){
 	 int result = search_integer(a,n,search);
 	 if(result == 1)
 	 {
-	 	cout <<"Integers found in the Arrays !!!"<<endl;
+	 	cout <<"Integers found in the Arrays !!!" << endl;
 	 }
 	 else {
 	 	cout <<"Integers not found in the Arrays !!!"<<endl;
