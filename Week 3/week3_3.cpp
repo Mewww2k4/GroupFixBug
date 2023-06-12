@@ -1,12 +1,4 @@
-/*3a. Định nghĩa một lớp có tên Movie. Bao gồm các trường riêng cho tiêu đề, năm và tên của
-giám đốc. Bao gồm ba chức năng công khai với các nguyên mẫu
-void Movie::setTitle(char [ ]);
-void Phim::setYear(int);
-void Movie::setDirector(char [ ]);
-Bao gồm một chức năng khác hiển thị tất cả thông tin về Phim.
-3b. Bao gồm một chức năng chấp nhận 2 đối tượng loại Phim và hiển thị chúng có hay không
-được phát hành trong cùng một năm và cả khi các Giám đốc đều giống nhau. Các hàm chuỗi có thể là
-đã sử dụng.*/
+
 #include<bits/stdc++.h>
 using namespace std;
 class Movie
